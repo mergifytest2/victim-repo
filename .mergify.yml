@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: B-CROSS-MARKER
+    conditions:
+      - bbp_cross_marker_xyz = 1
+    actions:
+      label:
+        add: ["b-cross"]
